@@ -1,0 +1,14 @@
+RunCat AI Metrics
+
+Based in part on the integration examples of RunCat Neo:
+https://github.com/runcat-dev/RunCatNeo
+Reference revision: b3b1543049ea0a051ecb78654a45f144724ea737
+Original project author: Takuto Nakamura (Kyome22) and contributors.
+Original project license: Apache License, Version 2.0.
+
+Modified for this project: Codex token aggregation, compact units, quota reset
+countdowns, DeepSeek total-balance integration, and installation tooling.
+
+Codex usage aggregation uses ccusage as a separately installed dependency:
+https://github.com/ccusage/ccusage
+Its license and notices are distributed with that dependency.
